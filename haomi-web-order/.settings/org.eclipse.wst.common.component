@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="haomi-service-order">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="haomi-common-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-common/haomi-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="haomi-interface-order-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-interface-order/haomi-interface-order">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="haomi-common-config-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-common-config/haomi-common-config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="haomi-service-order"/>
+        <property name="java-output-path" value="/haomi-service-order/target/classes"/>
+    </wb-module>
+</project-modules>
