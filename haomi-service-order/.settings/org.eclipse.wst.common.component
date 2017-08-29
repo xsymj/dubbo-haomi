@@ -4,7 +4,11 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
         <dependent-module archiveName="haomi-common-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-common/haomi-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="haomi-common-core-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-common-core/haomi-common-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="haomi-interface-order-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/haomi-interface-order/haomi-interface-order">

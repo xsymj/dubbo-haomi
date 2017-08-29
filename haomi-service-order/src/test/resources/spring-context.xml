@@ -27,8 +27,8 @@
 	<aop:aspectj-autoproxy proxy-target-class="true" />
 	
 	<import resource="classpath:spring/spring-mybatis.xml" />
- <!-- 	<import resource="classpath:spring/dubbo/spring-dubbo-consumer.xml" /> -->
-    <import resource="classpath:spring/dubbo/spring-dubbo-provider.xml" />  
+<!--  	<import resource="classpath:spring/dubbo/spring-dubbo-consumer.xml" /> -->
+   <!--  <import resource="classpath:spring/dubbo/spring-dubbo-provider.xml" />   -->
     
 <!--     异常信息 拦截
      <bean id="exceptionLog" class="wusc.edu.pay.common.core.interceptor.ExceptionInterceptorLog"></bean>  

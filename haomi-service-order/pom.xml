@@ -9,7 +9,7 @@
 	</parent>
   <artifactId>haomi-service-order</artifactId>
   <version>${haomi-service-order.version}</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>haomi-service-order</name>
   <url>http://maven.apache.org</url>
   <properties>
