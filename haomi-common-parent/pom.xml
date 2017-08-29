@@ -31,6 +31,8 @@
   			<haomi-interface-order.version>1.0-SNAPSHOT</haomi-interface-order.version>
   			<!--订单 -->
   			<haomi-web-order.version>1.0-SNAPSHOT</haomi-web-order.version>
+  			<!--  基础类 -->
+  			<haomi-common-core.version>1.0-SNAPSHOT</haomi-common-core.version>
   			
   		<httpclient.version>4.5.2</httpclient.version>
 		<jdk.version>1.7</jdk.version>
