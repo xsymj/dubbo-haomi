@@ -9,7 +9,7 @@
 	</parent>
   <artifactId>haomi-service-order</artifactId>
   <version>${haomi-service-order.version}</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>haomi-service-order</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -20,6 +20,11 @@
 			<groupId>cn.com.haomi</groupId>
 			<artifactId>haomi-common</artifactId>
 			<version>${haomi-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.com.haomi</groupId>
+			<artifactId>haomi-common-core</artifactId>
+			<version>${haomi-common-core.version}</version>
 		</dependency>
 			<dependency>
 			<groupId>cn.com.haomi</groupId>
