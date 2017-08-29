@@ -225,7 +225,7 @@ public abstract class BaseDaoImp<T extends BaseEntity> extends SqlSessionDaoSupp
 				sql = "SELECT " + seqName.toUpperCase() + ".NEXTVAL FROM DUAL";
 			}
 			if (driverClass.equals("com.mysql.jdbc.Driver")) {
-				sql = "SELECT  p_nextval('" + seqName.toUpperCase() + "')";
+				sql = "SELECT  nextval('" + seqName.toUpperCase() + "')";
 			}
 			// 如果状态为关闭,则需要从新打开一个连接
 			if (connection.isClosed()) {
